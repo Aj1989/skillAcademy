@@ -1,0 +1,7 @@
+.footerDiv {
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 30px;
+  text-align: center;
+  font-weight: lighter;
+}

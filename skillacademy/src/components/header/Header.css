@@ -1,0 +1,41 @@
+h1 {
+  color: var(--main-bg-color);
+  flex: 1;
+}
+
+#title {
+  display: flex;
+  padding-left: 20px;
+}
+
+#logRegBtnDiv {
+  flex: 0.2;
+  display: flex;
+  margin: auto;
+  gap: 15px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: var(--main-bg-color);
+  border: transparent;
+  border-radius: 10px;
+  gap: 10;
+}
+
+button:hover {
+  background-color: var(--hover-bg-color);
+  font-weight: bold;
+}
+
+#iconButton {
+  width: 50px;
+  color: red;
+  background-color: transparent;
+}
+
+#iconButton:hover {
+  color: var(--hover-bg-color);
+}
