@@ -6,8 +6,6 @@ const Header = () => {
       <div id="title">
         <h1>SKILLS ACDADEMY</h1>
         <div id="logRegBtnDiv">
-          <button>Login</button>
-          <button>Register</button>
           <button id="iconButton">
             <i
               class="bi bi-cart-plus"
