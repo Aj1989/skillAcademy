@@ -1,0 +1,55 @@
+.courseMenu {
+  max-width: 50rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  color: white;
+}
+
+.concept {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(89, 33, 33, 0.6)
+  );
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px rgba(255, 0, 0, 0.2);
+  transition: all 0.2s;
+  color: white;
+}
+
+.concept:hover {
+  transform: translateY(-10px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px rgba(255, 0, 0, 0.4);
+}
+
+.concept img {
+  width: 6rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+.concept h2 {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.concept p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+h2 {
+  font-weight: lighter;
+}

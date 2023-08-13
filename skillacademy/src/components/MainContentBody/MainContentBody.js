@@ -7,7 +7,7 @@ const MainContentBody = () => {
   return (
     <>
       <div id="mainContent">
-        {isLoggedIn && <LoginComponent />}
+        {!isLoggedIn && <LoginComponent />}
         {isLoggedIn && <HomePage />}
       </div>
     </>

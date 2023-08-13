@@ -9,28 +9,14 @@ h1 {
 }
 
 #logRegBtnDiv {
-  flex: 0.2;
+  flex: 0.4;
   display: flex;
-  margin: auto;
-  gap: 15px;
-}
-
-button {
-  height: 40px;
-  width: 100px;
-  color: white;
-  background-color: var(--main-bg-color);
-  border: transparent;
-  border-radius: 10px;
-  gap: 10;
-}
-
-button:hover {
-  background-color: var(--hover-bg-color);
-  font-weight: bold;
 }
 
 #iconButton {
+  display: flex;
+  gap: 30px;
+  margin: auto;
   width: 50px;
   color: red;
   background-color: transparent;
