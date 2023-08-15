@@ -17,11 +17,11 @@
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.6),
-    rgba(89, 33, 33, 0.6)
+    var(--menu-box-shadow-color)
   );
   padding: 1.5rem;
   border-radius: 6px;
-  box-shadow: 0 2px 20px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 2px 20px var(--menu-box-shadow-color);
   transition: all 0.2s;
   color: white;
 }
@@ -29,7 +29,7 @@
 .concept:hover {
   transform: translateY(-10px);
   transition: transform 0.2s;
-  box-shadow: 0 2px 30px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 2px 30px var(--menu-box-shadow-color-hover);
 }
 
 .concept img {
@@ -48,6 +48,7 @@
   margin: 0;
   text-align: center;
   font-size: 0.85rem;
+  font-weight: lighter;
 }
 
 h2 {

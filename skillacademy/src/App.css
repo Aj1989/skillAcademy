@@ -1,6 +1,15 @@
 :root {
-  --main-bg-color: red;
+  /* GREEN THEME */
+  --main-bg-color: green;
+  --hover-bg-color: rgb(26, 75, 0);
+  --menu-box-shadow-color: rgba(4, 255, 0, 0.3);
+  --menu-box-shadow-color-hover: rgba(6, 85, 1, 0.4);
+
+  /* RED THEME */
+  /* --main-bg-color: red;
   --hover-bg-color: rgb(126, 2, 2);
+  --menu-box-shadow-color: rgba(255, 0, 0, 0.3);
+  --menu-box-shadow-color-hover: rgba(255, 0, 0, 0.4); */
 }
 
 button {
@@ -10,7 +19,6 @@ button {
   background-color: var(--main-bg-color);
   border: transparent;
   border-radius: 10px;
-  gap: 10;
 }
 
 button:hover {
@@ -21,4 +29,18 @@ button:hover {
 i {
   font-size: 30px;
   color: var(--main-bg-color);
+}
+
+/* i:hover {
+  transform: translateY(-10px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px rgba(255, 0, 0, 0.4);
+} */
+
+.i-btn:hover {
+  font-size: 40px;
+  transform: translateY(-5px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px var(--hover-bg-color);
+  text-decoration: underline;
 }

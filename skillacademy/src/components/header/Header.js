@@ -7,10 +7,10 @@ const Header = () => {
         <h1>SKILLS ACDADEMY</h1>
         <div id="logRegBtnDiv">
           <button id="iconButton">
-            <i className="bi bi-house-fill"></i>
-            <i className="bi bi-bag-fill"></i>
-            <i class="bi bi-telephone-fill"></i>
-            <i class="bi bi-gear-fill"></i>
+            <i className="bi bi-house i-btn"></i>
+            <i className="bi bi-bag i-btn"></i>
+            <i className="bi bi-telephone i-btn"></i>
+            <i className="bi bi-gear i-btn"></i>
           </button>
         </div>
       </div>
