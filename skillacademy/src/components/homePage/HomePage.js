@@ -1,5 +1,5 @@
-import CourseMenu from "../courseMenu/CourseMenu";
 import classes from "./HomePage.module.css";
+import CourseMenu from "../courseMenu/CourseMenu";
 
 const HomePage = () => {
   const courseSections = [

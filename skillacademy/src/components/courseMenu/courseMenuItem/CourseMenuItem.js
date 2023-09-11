@@ -1,9 +1,12 @@
 import classes from "../CourseMenu.module.css";
 
 const CourseMenuItem = (props) => {
+  const onModuleClick = function (event) {
+    const value = event;
+  };
   const courseMenu = props.data;
   return (
-    <>
+    <div onClick={onModuleClick}>
       <ul className={classes.courseMenu}>
         {courseMenu.map((menu) => (
           <li className={classes.concept} key={menu.key}>
@@ -13,7 +16,7 @@ const CourseMenuItem = (props) => {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 export default CourseMenuItem;

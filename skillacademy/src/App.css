@@ -12,6 +12,16 @@
   --menu-box-shadow-color-hover: rgba(255, 0, 0, 0.4); */
 }
 
+#root {
+  min-height: calc(100vh - 20px);
+}
+
+#rootLayout {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
 button {
   height: 40px;
   width: 100px;
@@ -38,9 +48,6 @@ i {
 } */
 
 .i-btn:hover {
-  font-size: 40px;
-  transform: translateY(-5px);
+  transform: scale(1.2);
   transition: transform 0.2s;
-  box-shadow: 0 2px 30px var(--hover-bg-color);
-  text-decoration: underline;
 }
